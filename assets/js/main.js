@@ -246,5 +246,8 @@
 
 		$banner
 			._parallax();
+			
+			
+			
 
 })(jQuery);
