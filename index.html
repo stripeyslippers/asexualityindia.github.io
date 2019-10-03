@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
 	<script src="assets/js/jquery.min.js"></script> 
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+   
   </head>
   <body class="is-preload landing">
   <div id="page-wrapper">
@@ -90,12 +90,7 @@
           use the contact form or email us at 
           <span style="color:black">asexualityindia@gmail.com</span></p>
         </header>
-        <form id="gform" method="post" action="mail.php">
-		<!-- Customise the Thankyou Message People See when they submit the form: -->
-          <div class="thankyou_message" style="display:none;">
-            <h2>
-            <em>Thanks</em> for contacting us! We will get back to you soon!</h2>
-          </div>
+        <form id="gform" method="post" data-netlify="true">
           <!-- change the form action to your script url -->
           <div class="row gtr-uniform gtr-50 form-elements">
             <fieldset class="col-4 col-12-xsmall">
@@ -110,9 +105,7 @@
             
           </div>
           <footer class="major">
-			<div class="row aln-center">
-                <div class="g-recaptcha" data-sitekey="6LfRwrsUAAAAADHfkuCe2VYWxAKyp2xVkYCEBnlI"></div>
-            </div>
+			
             <div style ="margin: 2em 0 0 0;"class="actions fit">
               <input type="submit" value="Send Message" class="col-4 col-12-xsmall" />
             </div>
@@ -152,5 +145,5 @@
   <script src="assets/js/breakpoints.min.js"></script> 
   <script src="assets/js/util.js"></script> 
   <script src="assets/js/main.js"></script> 
-
+  
 </html>
