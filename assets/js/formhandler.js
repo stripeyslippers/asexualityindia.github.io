@@ -97,7 +97,7 @@
   document.addEventListener("DOMContentLoaded", loaded, false);
 
   function disableAllButtons(form) {
-    var buttons = form.querySelectorAll("button");
+    var buttons = form.querySelectorAll("input[type=submit]");
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
     }
