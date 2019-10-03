@@ -247,7 +247,7 @@
 		$banner
 			._parallax();
 			
-			
+		$('.color').hide()
 			
 
 })(jQuery);
