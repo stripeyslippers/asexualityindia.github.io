@@ -102,9 +102,7 @@
             <fieldset class="col-12 col-12-xsmall">
               <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
             </fieldset>
-            <div class="col-12 col-12-xsmall">
-                <div class="g-recaptcha" data-sitekey="6LfRwrsUAAAAADHfkuCe2VYWxAKyp2xVkYCEBnlI"></div>
-            </div>
+            
           </div>
           <!-- Customise the Thankyou Message People See when they submit the form: -->
           <div class="thankyou_message" style="display:none;">
@@ -112,8 +110,11 @@
             <em>Thanks</em> for contacting us! We will get back to you soon!</h2>
           </div>
           <footer class="major">
-            <div style="margin-left: 2em" class="actions special">
-              <!-- <input type="submit" value="Send" class="fit primary" /> -->
+			<div class="row aln-center">
+                <div class="g-recaptcha" data-sitekey="6LfRwrsUAAAAADHfkuCe2VYWxAKyp2xVkYCEBnlI"></div>
+            </div>
+            <div style ="margin: 2em 0 0 0;"class="actions fit">
+              <input type="submit" value="Send Message" class="col-4 col-12-xsmall" />
             </div>
           </footer>
         </form>
