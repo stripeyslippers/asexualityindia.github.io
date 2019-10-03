@@ -16,6 +16,8 @@
     <noscript>
       <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+	<script src="assets/js/jquery.min.js"></script> 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body class="is-preload landing">
   <div id="page-wrapper">
@@ -79,8 +81,6 @@
       </div>
       <!--<a href="#five" class="goto-next scrolly">Next</a>-->
     </section>
-	
-	
     <!-- Five -->
     <section id="five" class="wrapper style2 special fade">
       <div class="container inner">
@@ -90,8 +90,7 @@
           use the contact form or email us at 
           <span style="color:black">asexualityindia@gmail.com</span></p>
         </header>
-        <form id="gform" method="post" data-email="example@email.net"
-        action="https://script.google.com/macros/s/AKfycbyAckZTKwyiZDLYNmMaC1UlM3iapCmHMX1cdeXvNDr_KKUKVxc/exec">
+        <form id="gform" method="post" action="mail.php">
           <!-- change the form action to your script url -->
           <div class="row gtr-uniform gtr-50 form-elements">
             <fieldset class="col-4 col-12-xsmall">
@@ -103,10 +102,9 @@
             <fieldset class="col-12 col-12-xsmall">
               <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
             </fieldset>
-            <fieldset class="col-8 col-12-xsmall>
-              <input id="number" type="number" name="number" value="" />
-            </fieldset>
-			
+            <div class="col-12 col-12-xsmall">
+                <div class="g-recaptcha" data-sitekey="6LeIwbsUAAAAAEE9fntqrUbdqFEfvKLKKxhAiec8"></div>
+            </div>
           </div>
           <!-- Customise the Thankyou Message People See when they submit the form: -->
           <div class="thankyou_message" style="display:none;">
@@ -115,13 +113,12 @@
           </div>
           <footer class="major">
             <div style="margin-left: 2em" class="actions special">
-              <input class ="col-4 col-12-xsmall" type="submit" value="Send" class="fit primary" />
+              <!-- <input type="submit" value="Send" class="fit primary" /> -->
             </div>
           </footer>
         </form>
       </div>
     </section>
-	
     <!-- Footer -->
     <footer id="footer">
       <ul class="icons">
@@ -147,7 +144,6 @@
     </footer>
   </div>
   <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script> 
   <script src="assets/js/jquery.scrolly.min.js"></script> 
   <script src="assets/js/jquery.dropotron.min.js"></script> 
   <script src="assets/js/jquery.scrollex.min.js"></script> 
@@ -155,5 +151,4 @@
   <script src="assets/js/breakpoints.min.js"></script> 
   <script src="assets/js/util.js"></script> 
   <script src="assets/js/main.js"></script> 
-  <script data-cfasync="false" src="assets/js/formhandler.js"></script></body>
 </html>
