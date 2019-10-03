@@ -5336,4 +5336,361 @@ form {
 
 			}
 			
-			
+/* ================================================================== */
+
+/* f. Journal
+
+/* ================================================================== */
+
+#journal {
+   background-color: #0f9095;
+   padding-top: 156px;
+   padding-bottom: 120px;
+   color: #7fe6ed;
+}
+
+#journal a, #journal a:visited  { color: #fff; }
+#journal a:hover, #journal a:focus { color: #005757; }
+
+#journal .section-head h2 { color: #fff; }
+#journal .section-head p.desc,
+#journal .section-head .intro { color: #C2F1F5; }
+
+#journal .blog-entries { margin-top: 54px; }
+#journal .entry { margin-bottom: 12px; }
+
+/* post header */
+#journal .blog-entries .entry-header {
+   position: relative;
+   margin-bottom: 6px;
+}
+#journal .entry-header .entry-title { padding-left: 38px; }
+#journal .entry-header h3 { font: 30px/42px montserrat-regular, sans-serif; }
+#journal .entry-header .author-image img {
+   position: absolute;
+   top: 12px;
+   left: 18px;
+   margin: 0;
+   padding: 0;
+   width: 60px;
+   height: 60px;
+
+   -moz-border-radius: 100% 100% 100% 100%;
+	-webkit-border-radius: 100% 100% 100% 100%;
+	-khtml-border-radius: 100% 100% 100% 100%;
+	border-radius: 100% 100% 100% 100%;
+}
+
+/* post meta */
+#journal .entry .post-meta   {
+   font: 14px/24px opensans-regular, sans-serif;
+   color: #fff;
+   margin-top: 12px;
+   margin-bottom: 0;
+}
+#journal .entry .post-meta time,
+#journal .entry .post-meta .dauthor {
+   display: block;
+}
+#journal .entry .post-meta time {
+   font-family: montserrat-bold, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+/* post content */
+#journal .entry .post-content { padding-left: 38px; }
+#journal .entry .post-content p {
+   font: 16px/30px opensans-regular, sans-serif;
+}
+#journal .entry .post-content a.more-link {
+   font: 15px/30px opensans-bold, sans-serif;
+   margin-left: 3px;
+}
+#journal .entry .post-content a.more-link i {
+   margin-left: 10px;
+   font-size: 14px;
+}
+
+
+/* ================================================================== */
+
+/* k. Blog Post
+
+/* ================================================================== */
+
+.post {
+   background: #f5f5f5 url(../images/patterns/grey.png);
+   padding-top: 120px;
+   padding-bottom: 90px;
+}
+.post .entry-header {
+   position: relative;
+   width: 100%;
+}
+.post .entry-header h1 {
+   font: 45px/60px montserrat-regular, sans-serif;
+   color: #313131;
+   width: 83.33333%;
+   padding-right: 12%;
+   float: right;
+}
+.post .post-meta {
+   float: left;
+   text-align: right;
+   width: 16.66667%;
+   color: #bec0c1;
+   padding-right: 36px;
+   font: 14px/24px opensans-regular, sans-serif;
+   margin: 6px 0 6px 0;
+}
+.post .post-meta a,
+.post .post-meta a:visited { color: #B9BBBC; }
+.post .post-meta a:hover,
+.post .post-meta a:focus { color: #11ABB0; }
+
+.post .post-meta .date {
+   margin-bottom: 18px;
+   display: block;
+}
+.post .post-meta .date:before,
+.post .post-meta .categories:before {
+   display: block;
+   font: 14px/24px opensans-bold, sans-serif;
+   color: #313131;
+   text-align: right;
+}
+
+.post .post-meta .date:before { content: "Published"; }
+.post .post-meta .categories:before { content: "Categories"; }
+.post .post-meta .categories a { display: block; }
+
+/* hide sep */
+.post .post-meta .categories .sep { display: none; }
+
+/* post image */
+.post .post-image {
+  margin: 24px 0 36px 0;
+  width: 100%;
+}
+
+/* post content */
+.post .post-content {
+   margin-bottom: 24px;
+   width: 75%;
+}
+
+/* tags */
+.post .post-content .tags {
+  margin-top: 18px;
+  font-family: opensans-light, sans-serif;
+}
+.post .post-content .tags a { font-family: opensans-bold, sans-serif; }
+
+/* bio */
+.post .bio {
+   margin-top: 48px;
+   padding-top: 29px;
+   border-top: 1px solid #E0E0E0;
+}
+.post .bio .gravatar {
+   width: 16.66667%;
+   float: left;
+   width: 72px;
+   height: 72px;
+}
+.post .bio .gravatar img {
+   margin-top: 12px;
+
+   -moz-border-radius: 100% 100% 100% 100%;
+	-webkit-border-radius: 100% 100% 100% 100%;
+	-khtml-border-radius: 100% 100% 100% 100%;
+	border-radius: 100% 100% 100% 100%;
+}
+.post .bio .about {
+   width: 83.33333%;
+   float: right;
+}
+.post .bio .about h5 {
+   font: 16px/30px opensans-bold, sans-serif;
+   margin-bottom: 6px;
+}
+
+/* post-nav */
+.post .post-nav {
+   margin: 24px 0;
+   padding: 30px 0 0 0;
+   border-top: 1px solid #E0E0E0;
+   font: 16px/30px opensans-light, sans-serif;
+}
+.post .post-nav li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   width: 49%;
+   line-height: 30px;
+}
+.post .post-nav li a { color: #a3a3a3; }
+.post .post-nav li a:hover { color: #333; }
+.post .post-nav li strong {
+   font: 15px/30px opensans-bold, sans-serif;
+   text-transform: uppercase;
+   color: #11ABB0;
+   letter-spacing: 1px;
+   display: block;
+}
+.post .post-nav li.next {
+   float: right;
+   text-align: right;
+}
+.post .post-nav li.prev {
+   float: left;
+   text-align: left;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Grid
+
+   A simple, lightweight responsive grid.
+   columns = 48px, gutter = 36px.
+/* ------------------------------------------------------------------ */
+
+/* desktop
+--------------------------------------------------------------- */
+
+.rowblog {
+   width: 96%;
+   max-width: 1008px;
+   margin: 0 auto;
+
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.narrow .rowblog { max-width: 976px; }
+/* fixed width for IE8 */
+.ie .rowblog { width: 1008px ; }
+
+.rowblog .rowblog { width: auto; max-width: 100% }
+
+.colblog {
+   position: relative;
+   padding: 0 18px;
+   float: left;
+}
+
+/* row clearing */
+.rowblog:before,
+.rowblog:after {
+    content: " ";
+    display: table;
+}
+.rowblog:after {
+    clear: both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.rowblog { *zoom: 1; }
+
+
+/* removed gutters */
+.rowblog.collapsed .colblog,
+col.collapsed { padding: 0; }
+
+/* removed nested columns paddings */
+.colblog .colblog:first-child { padding-left: 0; }
+.colblog .colblog:last-child { padding-right: 0; }
+/* If you'll be using IE8, use class ".last" in nested comlumns.
+   ":last-child" is not supported in IE8 */
+.ie .rowblog .rowblog .last { padding-right: 0; }
+
+/* column widths */
+.rowblog .one-twelfth,     .rowblog .g-1     { width: 8.33333%; }
+.rowblog .one-sixth,       .rowblog .g-2     { width: 16.66667%; }
+.rowblog .one-fourth,      .rowblog .g-3     { width: 25%; }
+.rowblog .one-third,       .rowblog .g-4     { width: 33.33333%; }
+.rowblog .five-twelfths,   .rowblog .g-5     { width: 41.66667%; }
+.rowblog .half,            .rowblog .g-6     { width: 50%; }
+.rowblog .seven-twelfths,  .rowblog .g-7     { width: 58.33333%; }
+.rowblog .two-thirds,      .rowblog .g-8     { width: 66.66667%; }
+.rowblog .three-fourths,   .rowblog .g-9     { width: 75%; }
+.rowblog .five-sixths,     .rowblog .g-10    { width: 83.33333%; }
+.rowblog .eleven-twelfths, .rowblog .g-11    { width: 91.66667%; }
+.rowblog .full,            .rowblog .g-12    { width: 100%; }
+
+/* Offsets */
+.rowblog .offsetblog-1    { margin-left: 8.33333%; }
+.rowblog .offsetblog-2    { margin-left: 16.66667%; }
+.rowblog .offsetblog-3    { margin-left: 25%; }
+.rowblog .offsetblog-4    { margin-left: 33.33333%; }
+.rowblog .offsetblog-5    { margin-left: 41.66667%; }
+.rowblog .offsetblog-6    { margin-left: 50%; }
+.rowblog .offsetblog-7    { margin-left: 58.33333%; }
+.rowblog .offsetblog-8    { margin-left: 66.66667%; }
+.rowblog .offsetblog-9    { margin-left: 75%; }
+.rowblog .offsetblog-10   { margin-left: 83.33333%; }
+.rowblog .offsetblog-11   { margin-left: 91.66667%; }
+
+
+/* smaller screens
+--------------------------------------------------------------- */
+@media only screen and (max-width: 800px) {
+
+   /*.col { padding: 0 15px; } */
+
+}
+
+/* mobile wide
+--------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+   .rowblog {
+	   width: 460px;
+	   margin: 0 auto;
+      padding: 0;
+	}
+   .colblog {
+	   width: 100% !important;
+	   float: none;
+	   margin-left: 0;
+	   margin-right: 0;
+      padding: 0 20px;
+    }
+    /* for nested columns */
+   .colblog .rowblog { width: 100%; }
+   .colblog .rowblog .colblog { padding: 0; }
+
+   /* Offsets */
+   .rowblog .offsetblog-1    { margin-left: 0%; }
+   .rowblog .offsetblog-2    { margin-left: 0%; }
+   .rowblog .offsetblog-3    { margin-left: 0%; }
+   .rowblog .offsetblog-4    { margin-left: 0%; }
+   .rowblog .offsetblog-5    { margin-left: 0%; }
+   .rowblog .offsetblog-6    { margin-left: 0%; }
+   .rowblog .offsetblog-7    { margin-left: 0%; }
+   .rowblog .offsetblog-8    { margin-left: 0%; }
+   .rowblog .offsetblog-9    { margin-left: 0%; }
+   .rowblog .offsetblog-10   { margin-left: 0%; }
+   .rowblog .offsetblog-11   { margin-left: 0%; }
+}
+
+/* mobile narrow
+--------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+
+   .rowblog { width: 100%; }
+
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+   .wideblog .rowblog { max-width: 1180px; }
+   .wideblog .colblog { padding: 0 20px; }
+
+}
+
+
+.honeypot-field {
+  display: none;
+}
