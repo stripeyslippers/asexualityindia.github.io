@@ -2167,6 +2167,14 @@ input, select, textarea {
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
+	
+	header h1 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+		line-height: 1.75em;
+		color:#fff;
+		font-style: italic;
+	}
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -3554,11 +3562,6 @@ input, select, textarea {
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
-					text-align:center;
-					color:#fff;
-					    font-size: 1.25rem;
-				font-style: italic;
-   
 				}
 
 			#banner .content .image {
@@ -3843,6 +3846,10 @@ color:black;
 			header p br {
 				display: none;
 			}
+			
+			header h1 + p {
+				font-size: 1em;
+			}
 
 			header h2 + p {
 				font-size: 1em;
@@ -3916,6 +3923,9 @@ color:black;
 						font-size: 1.5em;
 					}
 
+					#banner .content header h1 {
+						font-size: 1.5em;
+					}
 					#banner .content .image {
 						height: 9em;
 						width: 9em;
