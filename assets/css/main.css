@@ -4142,6 +4142,7 @@ color:black;
 			input[type="button"],
 			.button {
 				padding: 0;
+				width: 100%;
 			}
 
 		/* Spotlight */
@@ -4454,17 +4455,38 @@ color:black;
 		
 		#header + #wrapper > .wrapper > .inner {
 		margin: 0 auto;
-	}
+		}
 	
-	.wrapper > .inner {
-    padding: 4em 4em 2em 4em;
-}
 
 .wrapper > .inner {
-    padding: 2em 5em 3em 2em;
-    max-width: 75%;
+    padding: 5em 5em 3em 5em;
+    max-width: 100%;
     width: 75em;
 }
+
+@media screen and (max-width: 1680px) {
+
+				.wrapper > .inner {
+					padding: 4em 4em 2em 4em ;
+				}
+
+			}
+
+			@media screen and (max-width: 1280px) {
+
+				.wrapper > .inner {
+					width: 100%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.wrapper > .inner {
+					padding: 1em 1em 1em 1em ;
+				}
+
+			}
 
 
 /* Spotlights */
