@@ -85,7 +85,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #fffff;
+		background: #222;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -100,7 +100,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: rgba(14, 11, 22, 0.75);
+		color: #b3b3b3;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
@@ -112,13 +112,12 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #a239ca;
+		color: #8024a3;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #a239ca !important;
+			color: #8024a3 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -137,7 +136,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #fff;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -157,6 +156,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.5em;
+		font-weight:700;
 		letter-spacing: -0.025em;
 	}
 
@@ -2203,7 +2203,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #a239ca;
+			background: #8024a3;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2272,7 +2272,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #a239ca;
+			border-color: #8024a3;
 		}
 
 	select {
@@ -2375,7 +2375,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #a239ca;
+			border-color: #8024a3;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2883,8 +2883,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #a239ca;
-			color: #a239ca !important;
+			box-shadow: inset 0 0 0 1px #8024a3;
+			color: #8024a3 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2926,7 +2926,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #a239ca;
+			background-color: #8024a3;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3167,7 +3167,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #a239ca;
+			border-color: #8024a3;
 		}
 
 		.spotlight.style2 .content {
@@ -3229,7 +3229,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #a239ca;
+			background: #8024a3;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3264,7 +3264,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="button"].primary,
 			.wrapper.style2 .button.primary {
 				background-color: #ffffff;
-				color: #a239ca !important;
+				color: #8024a3 !important;
 			}
 
 				.wrapper.style2 input[type="submit"].primary:hover, .wrapper.style2 input[type="submit"].primary:active,
@@ -3341,7 +3341,7 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-		background: rgba(39, 40, 51, 0.965);
+		background: rgba(21, 21, 21, 0.965);
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
 		list-style: none;
@@ -3368,7 +3368,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
-				color: #a239ca;
+				color: #8024a3;
 			}
 
 		.dropotron.level-0 {
@@ -3403,7 +3403,7 @@ input, select, textarea {
 
 
 	#header {
-		background: rgba(14, 11, 22, 0.965);
+		background: rgba(21, 21, 21, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3464,7 +3464,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #a239ca;
+						color: #8024a3;
 					}
 
 					#header nav ul li > ul {
@@ -3586,7 +3586,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #0e0b16;
+		background: #151515;
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3609,7 +3609,7 @@ input, select, textarea {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #a239ca !important;
+				color: #8024a3 !important;
 				text-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), -1px 0 0 rgba(0, 0, 0, 0.5), 0 1px 0 rgba(0, 0, 0, 0.5), 0 -1px 0 rgba(0, 0, 0, 0.5);
 			}
 
@@ -4005,7 +4005,7 @@ color:black;
 					}
 
 					#titleBar .toggle:before {
-						background: #a239ca;
+						background: #8024a3;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
@@ -4647,9 +4647,18 @@ color:black;
 
 		}
 		
-/**FAQ*/
+/**FAQ
+-------------------------
+-------------------------
+*/
+
 .cd-faq-group > li {
 	list-style: none;
+}
+
+.cd-faq-categories > li {
+	list-style: none;
+	margin: 0 0 8px 0;
 }
 
 *, *::after, *::before {
@@ -4688,7 +4697,6 @@ body.cd-overlay::after {
   }
 }
 
-
 .cd-faq {
   width: 90%;
   max-width: 1024px;
@@ -4703,24 +4711,22 @@ body.cd-overlay::after {
 @media only screen and (min-width: 768px) {
   .cd-faq {
     position: relative;
-    margin: 4em auto;
+    margin: 8em auto;
     box-shadow: none;
   }
 }
 
 .cd-faq-categories a {
   position: relative;
-  display: inline-block;
+  display: block;
   overflow: hidden;
   height: 50px;
   line-height: 50px;
   padding: 0 28px 0 16px;
-  background: #fff;
-	border: 1px solid #0e0b16 !important;
-	color: #0e0b16 !important;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
+  color: ##8024a3;
   white-space: nowrap;
   border-bottom: 1px solid #555b61;
   text-overflow: ellipsis;
@@ -4745,41 +4751,20 @@ body.cd-overlay::after {
 .cd-faq-categories li:last-child a {
   border-bottom: none;
 }
-/**Added for horizontal list 25th Sept, 2019*/
-.table{
-	display: table;
-    margin: 0 auto;
-}
-.cd-faq-categories li{
-	display:inline;
-}
-
-ul.cd-faq-group li {
-	padding-left: 0.5em;
-	font-family: "Merriweather", Georgia, serif;
-	
-}
-
-
-
-
 @media only screen and (min-width: 768px) {
   .cd-faq-categories {
-    /**width: 20%;
+    width: 20%;
     float: left;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);*/
-	min-width: 600px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: nowrap;
+    
   }
   .cd-faq-categories a {
     font-size: 13px;
-    font-size: 1rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
     padding-left: 24px;
     padding: 0 24px;
-	text-transform: uppercase;
+	text-transform:uppercase;
+	border: 1px solid #0e0b16 !important;
     -webkit-transition: background 0.2s, padding 0.2s;
     -moz-transition: background 0.2s, padding 0.2s;
     transition: background 0.2s, padding 0.2s;
@@ -4788,7 +4773,7 @@ ul.cd-faq-group li {
     display: none;
   }
   .no-touch .cd-faq-categories a:hover {
-    background: #e7dfdd;
+    background: #555b61;
   }
   .no-js .cd-faq-categories {
     width: 100%;
@@ -4797,11 +4782,11 @@ ul.cd-faq-group li {
 }
 @media only screen and (min-width: 1024px) {
   .cd-faq-categories {
-    /**position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 200px;
-    z-index: 2;*/
+    z-index: 2;
   }
   .cd-faq-categories a::before {
     /* decorative rectangle on the left visible for the selected item */
@@ -4810,8 +4795,8 @@ ul.cd-faq-group li {
     right: auto;
     left: 0;
     height: 100%;
-    width: 5px;
-    background-color: #a239ca;
+    width: 4px;
+    background-color: #8024a3;
     opacity: 0;
     -webkit-transition: opacity 0.2s;
     -moz-transition: opacity 0.2s;
@@ -4819,8 +4804,7 @@ ul.cd-faq-group li {
   }
   .cd-faq-categories .selected {
     background: #fff !important;
-	border: 1px solid #0e0b16;
-	color: #0e0b16;
+	color: #8024a3;
   }
   .cd-faq-categories .selected::before {
     opacity: 1;
@@ -4893,7 +4877,7 @@ ul.cd-faq-group li {
   .cd-faq-items {
     float: none;
     width: 100%;
-   /** padding-left: 220px;*/
+    padding-left: 220px;
   }
   .no-js .cd-faq-items {
     padding-left: 0;
@@ -4974,10 +4958,9 @@ ul.cd-faq-group li {
 .cd-faq-group .cd-faq-title h2 {
   text-transform: uppercase;
   font-size: 12px;
-  font-size: 1rem;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 0.75rem;
   font-weight: 700;
-  color: #0e0b16;
+  color: #bbbbc7;
 }
 .no-js .cd-faq-group {
   display: block;
@@ -4988,7 +4971,7 @@ ul.cd-faq-group li {
     display: block;
   }
   .cd-faq-group > li {
-    background: #E7DFDD;
+    background: #151515;
     margin-bottom: 6px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
     -webkit-transition: box-shadow 0.2s;
@@ -5011,14 +4994,13 @@ ul.cd-faq-group li {
   display: block;
   margin: 1.6em 0 .4em;
   line-height: 1.2;
-  color:#000;
+  color:#b3b3b3;
 }
-
 @media only screen and (min-width: 768px) {
   .cd-faq-trigger {
     font-size: 24px;
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.1rem;
+    
     margin: 0;
     padding: 24px 72px 24px 24px;
   }
@@ -5029,7 +5011,7 @@ ul.cd-faq-group li {
     top: 50%;
     height: 2px;
     width: 13px;
-    background: #0e0b16;
+    background: #8024a3;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transition-property: -webkit-transform;
@@ -5074,7 +5056,7 @@ ul.cd-faq-group li {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #6c7d8e;
+  color: #b3b3b3;
 }
 @media only screen and (min-width: 768px) {
   .cd-faq-content {
@@ -5088,6 +5070,8 @@ ul.cd-faq-group li {
     display: block;
   }
 }
+
+/*-----------End FAQ--------------------------*/
 
 /*Get in touch*/
 
