@@ -124,7 +124,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #000;
-		font-weight: 300;
+		font-weight: 700;
 	}
 
 	em, i {
@@ -4648,7 +4648,7 @@ color:black;
 		}
 		
 /**FAQ*/
-.cd-faq-items > ol, ul {
+.cd-faq-group > li {
 	list-style: none;
 }
 
