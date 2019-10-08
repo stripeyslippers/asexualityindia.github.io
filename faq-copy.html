@@ -2,15 +2,15 @@
 <html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"
-	<!-- <link rel="stylesheet" href="assets/css/reset.css"> CSS reset -->
-	<link rel="stylesheet" href="assets/css/main.css"> <!-- Resource style -->
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+	<link rel="stylesheet" href="assets/css/main.css"> 
+	<script src="assets/js/modernizr.js"></script> 
 	<title>FAQs</title>
 </head>
-	<body class="is-preload">
-	<div id="page-wrapper">
+	<body class="is-preload faqs">
+	
+		<div id="page-wrapper">
 
 		<!-- Header -->
 		<header id="header">
@@ -41,75 +41,248 @@
 		</header>
 
 		<!-- Wrapper -->
-		<div id="wrapper">
-			<div class="container">
-				<section class="cd-faq">
-					<ul class="cd-faq-categories">
-						<li><a class="selected" href="#basics">General</a></li>
-						<li><a href="#mobile">Family & Friends</a></li>
-						<li><a href="#account">Relationship</a></li>
-					</ul> <!-- cd-faq-categories -->
+		<
+				<div class="cd-tabs cd-tabs--vertical container max-width-md margin-top-xl margin-bottom-lg js-cd-tabs">
+				
+					 <nav class="cd-tabs__navigation">
+      <ul class="cd-tabs__list">
+        <li>
+          <a href="#tab-inbox" class="cd-tabs__item cd-tabs__item--selected">
+            <svg aria-hidden="true" class="icon icon--xs"><path d="M15,0H1C0.4,0,0,0.4,0,1v14c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1V1C16,0.4,15.6,0,15,0z M14,2v7h-3 c-0.6,0-1,0.4-1,1v2H6v-2c0-0.6-0.4-1-1-1H2V2H14z"></path></svg>
+            <span>Inbox</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#tab-new" class="cd-tabs__item">
+            <svg aria-hidden="true" class="icon icon--xs"><path d="M12.7,0.3c-0.4-0.4-1-0.4-1.4,0l-7,7C4.1,7.5,4,7.7,4,8v3c0,0.6,0.4,1,1,1h3 c0.3,0,0.5-0.1,0.7-0.3l7-7c0.4-0.4,0.4-1,0-1.4L12.7,0.3z M7.6,10H6V8.4l6-6L13.6,4L7.6,10z"></path><path d="M15,10c-0.6,0-1,0.4-1,1v3H2V2h3c0.6,0,1-0.4,1-1S5.6,0,5,0H1C0.4,0,0,0.4,0,1v14c0,0.6,0.4,1,1,1h14 c0.6,0,1-0.4,1-1v-4C16,10.4,15.6,10,15,10z"></path></svg>
+            <span>New</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#tab-gallery" class="cd-tabs__item">
+            <svg aria-hidden="true" class="icon icon--xs"><path d="M15,4h-2.5l-1.7-2.6C10.6,1.2,10.3,1,10,1H6C5.7,1,5.4,1.2,5.2,1.4L3.5,4H1C0.4,4,0,4.4,0,5v9 c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1V5C16,4.4,15.6,4,15,4z M8,12c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S9.7,12,8,12z"></path></svg>
+            <span>Gallery</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#tab-store" class="cd-tabs__item">
+            <svg aria-hidden="true" class="icon icon--xs"><path d="M13.9,0.5C13.7,0.2,13.4,0,13,0H3C2.6,0,2.3,0.2,2.1,0.5C0,4.5,0,4.7,0,5c0,1.1,0.9,2,2,2v8c0,0.6,0.4,1,1,1 h10c0.6,0,1-0.4,1-1V7c1.1,0,2-0.9,2-2C16,4.7,16,4.5,13.9,0.5z M10,14v-4H6v4H4V6.7C4.3,6.9,4.6,7,5,7c0.6,0,1.1-0.3,1.5-0.7 C6.9,6.7,7.4,7,8,7s1.1-0.3,1.5-0.7C9.9,6.7,10.4,7,11,7c0.4,0,0.7-0.1,1-0.3V14H10z"></path></svg>
+            <span>Store</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#tab-settings" class="cd-tabs__item">
+            <svg aria-hidden="true" class="icon icon--xs"><circle cx="6" cy="8" r="2"></circle><path d="M10,2H6C2.7,2,0,4.7,0,8s2.7,6,6,6h4c3.3,0,6-2.7,6-6S13.3,2,10,2z M10,12H6c-2.2,0-4-1.8-4-4s1.8-4,4-4h4 c2.2,0,4,1.8,4,4S12.2,12,10,12z"></path></svg>
+            <span>Settings</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#tab-trash" class="cd-tabs__item">
+            <svg aria-hidden="true" class="icon icon--xs"><rect x="5" y="7" width="2" height="6"></rect><rect x="9" y="7" width="2" height="6"></rect><path d="M12,1c0-0.6-0.4-1-1-1H5C4.4,0,4,0.4,4,1v2H0v2h1v10c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1V5h1V3h-4V1z M6,2h4 v1H6V2z M13,5v9H3V5H13z"></path></svg>
+            <span>Trash</span>
+          </a>
+        </li>
+      </ul> <!-- cd-tabs__list -->
+    </nav>
+				
 
 					<div class="cd-faq-items">
 						<ul id="basics" class="cd-faq-group">
 							<li class="cd-faq-title"><h2>General</h2></li>
 							<li>
-								<a class="cd-faq-trigger" href="#0">How do I change my password?</a>
+								<a class="cd-faq-trigger" href="#0">How do I know if I'm asexual?</a>
 								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quidem blanditiis delectus corporis, possimus officia sint sequi ex tenetur id impedit est pariatur iure animi non a ratione reiciendis nihil sed consequatur atque repellendus fugit perspiciatis rerum et. Dolorum consequuntur fugit deleniti, soluta fuga nobis. Ducimus blanditiis velit sit iste delectus obcaecati debitis omnis, assumenda accusamus cumque perferendis eos aut quidem! Aut, totam rerum, cupiditate quae aperiam voluptas rem inventore quas, ex maxime culpa nam soluta labore at amet nihil laborum? Explicabo numquam, sit fugit, voluptatem autem atque quis quam voluptate fugiat earum rem hic, reprehenderit quaerat tempore at. Aperiam.</p>
+									<p>To make things easier, asexuality was given a standard definition. The current definition of asexuality is ‘someone who does not experience sexual attraction’. This is the official definition given be AVEN. However asexuality is a wide spectrum and differs from person to person in terms of attraction, arousal and relationships. Thus it is only you who can decide what label fits you best. We hope that with the help of this website as well as other resources like AVEN will help you decide whether you are asexual or not.</p>
 								</div> <!-- cd-faq-content -->
 							</li>
 
 							<li>
-								<a class="cd-faq-trigger" href="#0">How do I sign up?</a>
+								<a class="cd-faq-trigger" href="#0"> I've never been sexually attracted to anyone. Am I an asexual?</a>
 								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi cupiditate et laudantium esse adipisci consequatur modi possimus accusantium vero atque excepturi nobis in doloremque repudiandae soluta non minus dolore voluptatem enim reiciendis officia voluptates, fuga ullam? Voluptas reiciendis cumque molestiae unde numquam similique quas doloremque non, perferendis doloribus necessitatibus itaque dolorem quam officia atque perspiciatis dolore laudantium dolor voluptatem eligendi? Aliquam nulla unde voluptatum molestiae, eos fugit ullam, consequuntur, saepe voluptas quaerat deleniti. Repellendus magni sint temporibus, accusantium rem commodi?</p>
+									<p>Again, it is completely up to you if you want to identify as asexual. However, according to the definition, yes you are an Ace. Note that it is lack of sexual attraction and not lack of sexual activity that defines asexuality.</p>
 								</div> <!-- cd-faq-content -->
 							</li>
 
 							<li>
-								<a class="cd-faq-trigger" href="#0">Can I remove a post?</a>
+								<a class="cd-faq-trigger" href="#0">I find people attractive, but have no sexual feelings towards them. What am I?</a>
 								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+									<p>It is absolutely normal for an asexual to admire someone who is aesthetically attractive. It's the same with sexual people. People sometimes form a platonic relationship and that's absolutely normal. If you are romantically connected to someone and still don't have sexual feelings, you might be an asexual.</p>
 								</div> <!-- cd-faq-content -->
 							</li>
 
 							<li>
-								<a class="cd-faq-trigger" href="#0">How do reviews work?</a>
+								<a class="cd-faq-trigger" href="#0">I am very rarely sexually attracted to people. I have only been sexually attracted to two people in my entire life. Where do I stand?</a>
 								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+									<p>As mentioned above, asexuality is a wide spectrum and cannot be reduced to a black and white definition. In this vast spectrum, at one end is the sexual and the other end is the asexual. The area in between is the grey area. People who normally do not experience sexual attraction but sometimes do experience it, experience sexual attraction but have a low sex drive, enjoy and desire sex only under limited and specific circumstances, all come within this grey area. Furthermore, an asexual person can want or choose to engage in sex for several reasons. Some asexual people in relationships might choose or even want to have sex with their partner as a way of showing affection, and they might even enjoy it. Others may want to have sex in order to have children, or to satisfy a curiosity, or for other reasons.It is also important to keep in mind that sexuality can be fluid. Sexual inclination and identity may, but does not always, change over a period of time. In the end, privately or publicly identifying as asexual or sexual is your choice. No one can force a label on you that you are not sure of or comfortable with yourself.</p>
 								</div> <!-- cd-faq-content -->
 							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">I get attracted to people only after a get to know them. What does this mean?</a>
+								<div class="cd-faq-content">
+									<p>There are different forms of attraction. Many sexual people find that they need to get to know someone in order to feel romantically and/or sexually attracted to them. In fact, some people identify as demi-sexual, which is a label used by people in the gray area when they can only feel sexual attraction after having a strong emotional bond with someone.Many asexual people as well need to get to know someone before feeling romantically attracted to them. Some use the label demi-romantic if they need a strong emotional bond (like friendship for example) before feeling romantic attraction. It is common for Asexuals to be intellectually attracted to someone after getting to know them as a friend (although 'love at first conversation' is perfectly possible).</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">Certain things turn me on, but have nothing to do with people. What does that mean?</a>
+								<div class="cd-faq-content">
+									<p>Experiencing sexual arousal does not mean that you are not an Asexual. Several Asexuals have fetishes that does not involve attraction towards other people. Such Asexuals do not find the need to share their sexuality with anyone else.</p>
+									<p>People form identities around stuff that they need to figure out. People who identify as asexual tend to be trying to figure out how to live full emotionally complete lives without necessarily having to engage in sexual relationships with other people, how to live in a world that places a high premium on sexuality and sexual relationships. If this is something that you are struggling with in some way, then the asexual community is worth investigating.</p>
+									<p>Some asexuals have no sexual feelings at all (theyre called non-libidoists), but they eventually have a lot in common with those asexuals who have sexual feelings that do not involve people in any way. Both groups may feel alienated in a society that expects everyone to be sexually interested in other people.</p>
+									<p>Eventually, whether or not you choose to identify as asexual is up to you, if you find the label useful.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">My sexuality comes in phases. Sometimes I'm sexual, other times I'm completely asexual. Do I have a place in your asexual community?</a>
+								<div class="cd-faq-content">
+									<p>Yes you do! This would put you in the grey area between sexuality and asexuality. The gray area also includes people who rarely experience sexual attraction. If you think this is a phase and could experience sexual attraction in the future, you still have a lot to relate to in the asexual community. AVEN has quite a few gray-a member with whom you might have a lot in common, particularly during your asexual moments.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">Am I Asexual if I masturbate or have sexual fantasies?</a>
+								<div class="cd-faq-content">
+									<p>Most asexuals are physically capable of sex. Some masturbate and some do not. Since masturbation produces a pleasurable sensation, many asexuals choose to use it to take pleasure from their bodies. Some asexuals can only arouse themselves manually (by applying friction to sexual organs), while others can turn themselves on with thought or even outside stimulus, such as pornography or erotic literature.</p>
+									<p>There is an important distinction between sexual and asexual people when it comes to masturbation: while some asexuals don't think about anything specifically sexual during masturbation, if they do think about other people or view pornography, these interpersonal interactions are only fantasy. If an asexual were actually given the opportunity to be sexual with the fantasized person(s), there would be no sexual attraction, or the attraction would be so low as to be completely ignorable.</p>
+									<p>Some masturbating asexuals do not have a sex drive motivating them; they just do it because it's nice or to relieve stress. Other asexuals masturbate because they have a personal sex drive (libido) that they wish to take care of privately; they may experience arousal as a biological response to outside stimulus and wish to relieve themselves of it without a desire for partnered sex. Still more, some asexuals may be considered autosexual; they are sexually attracted to themselves and as such take sexual pleasure from their own bodies. The common factor is that all asexuals, masturbating or not, have little or no sexual attraction to other people.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">I have had crushes on people and sometimes I've even fallen in love. Am I still asexual?</a>
+								<div class="cd-faq-content">
+									<p>Most of the time, people mix up emotional and romantic attractions with sexual attraction. For some people they go hand in hand, but that doesn't mean they are one and the same and cannot be separated. Many Asexuals do have crushes on others and have a romantic drive, making them very capable of falling in love. Such people would like to be intimate with another special person, its just that this intimacy isn't sexual.</p>
+									<p>Just as sexual attraction can be directed at one (or more) gender(s) creating patterns of sexual orientations, romantic attraction can be considered the base of romantic orientations: some people call themselves hetero-romantic, homo-romantic, bi-romantic or pan-romantic, according to the gender(s) they're attracted to. There are also people who do not experience romantic attraction, and they're called aromantic. Lastly, just as there's a gray-area between sexuality and asexuality, there is one also between romanticism and aromanticism.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">Can I be Asexual even though I enjoy having sex with my loving partner and have never really felt driven to have sex with anybody else?</a>
+								<div class="cd-faq-content">
+									<p>Most asexual people are physically capable of having sex. As with masturbation, some asexuals find the experience of sex pleasurable, even if they do not desire it in the way that someone who feels sexual attraction does. If you use sex in an effort to connect emotionally with your sexual partner, or to compromise their sexuality and your asexuality, rather than because of an innate desire to have sex with your partner, then that need not contradict an asexual identity.</p>
+									<p>Just as sexual people can form asexual relationships, asexual people can participate in sexual relationships for a variety of reasons. So long as you're comfortable and happy with that then it's cause for celebration rather than a reason to doubt your 'asexual purity.' Celibacy and asexuality need not go hand-in-hand.</p>
+									<p>Besides wishing to connect with a sexual partner, there are other reasons why some asexuals choose to participate in sexual activity. The motivation might be curiosity or experimentation (a good proportion of asexuals have tried sex at some point in the past). Certain aspects of sex might be sensual and enjoyable enough to be motivation for some people even without sexual attraction or drive. Even if it is not immediately desired, sexual release can certainly be pleasurable for an asexual; think of it as not being hungry but still enjoying an ice cream cone. In a loving relationship, some asexuals may enjoy giving sexual pleasure to their partner without the need for any sexual gratification in return. If sex makes their partner feel loved, then some asexuals may wish to take part in consensual sex acts if only because they desire their partner's happiness.</p>
+									<p>That being said, many asexual people have fantastic relationships with sexual partners that don't involve sex. When sex does happen in an asexual/sexual relationship it requires extensive communication. Consent without sexual attraction is complicated, and is not something that sexual partners are entitled to.</p>
+									<p>There are also asexual people who would like to meet their partners on their sexual needs but can't because they are repulsed by some or all sexual activities. There is nothing wrong with being repulsed as long as it's not causing you personal distress. Visiting our community may help you find people you can relate to and see how they approach relationships and/or sex in their life.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">Am I more Asexual than the rest if i don't have any crushes and am perfectly happy with having close friends?</a>
+								<div class="cd-faq-content">
+									<p>There are asexual people who experience romantic attraction (have crushes, desire having romantic relationships, etc), and there are asexual people who don't. While the former are "romantic", the latter are "aromantic" and generally speaking they prefer having close friends. This, however, doesn't make them 'more asexual' than those who desire a romantic relationship. Furthermore, aromanticism is not only something asexual people identify with: there are, in fact, also people of any sexual orientation who are aromantic.</p>
+									<p>The idea of being 'very asexual' is questionable. There is no hierarchy of asexuality. Asexuals with romance drives are not 'less asexual' than those without. Asexuals who are in sexual relationships with loving partners have as much value in the community as those who have never had a single sexual experience. This community is not about elitism; it's about people who share the common factor of having very little or absolutely no sexual attraction to other people.</p>
+									<p>Diversity is a good thing in any community. Everyone in this community has as much value as everyone else. If your experience differs from that which you see others expressing, please feel free to share it.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">If I consider myself to be a sexual person, but am incapable of having sex, does that make me Asexual?</a>
+								<div class="cd-faq-content">
+									<p>No, it does not. If you identify as a sexual person, then that’s what you are. Asexual people are fine not having sex; if you think that your lack of interest in sex is a problem then you should consult a doctor or therapist. There is no guarantee that they will be able to help you, but there is a good chance. If you can’t decide if you think it’s a problem then you owe it to yourself to gather as much information as possible to figure out what fits you best.</p>
+									<p>Asexual people may also be incapable of having sex, the distinction is that they are unlikely to feel particularly uncomfortable about this as long as they are otherwise healthy. If you want to have sex but can't then this may not be the community for you.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">Why would asexuals want or need to 'come out' anyway?</a>
+								<div class="cd-faq-content">
+									<p>For some asexuals it really is the case that their asexuality is a complete non-issue, they never have any reason to mention sex and feel perfectly comfortable interacting with others.</p>
+									<p>Other asexuals find themselves in situations where they are expected to be sexual. They might feel pressured to fake sexual attractions in order to fit in and have an easy life. Many people find that those around them constantly bring up sexual attraction in conversations, be it sex talk in the office or "look at the legs on her". It might be easier to play along and pretend you have sexual thoughts and feelings, but in doing so you are effectively 'in the closet', whether to avoid shame or simply to make life easier for yourself.</p>
+									<p>Some asexuals have found it refreshing to come out as having no sexual attraction. They no longer have to fade into the background when sex comes into the conversation or fake sexual interest in order to fit in. They can be completely honest about who they are and what they feel.</p>
+									<p>Another reason to consider coming out is to increase visibility and acceptance of asexuals in our society. While you may feel perfectly comfortable with who you are, other asexuals feel broken or less than human. As more and more asexuals are visible in our society, the idea of asexuality as a valid part of human experience will become more widespread. Just one more openly asexual person increases the likelihood that other asexuals won't have to grow up feeling broken and ashamed.</p>
+									<p>Coming out is, of course, your own personal choice and no one will think less of you if you decide that it's not for you.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">Does being an Asexual mean that I will always be lonely?</a>
+								<div class="cd-faq-content">
+									<p>No, not at all! Asexuals can and do form many kinds of relationships, from close friendships to romantic couplings to other kinds of bonds which our society doesn't have words for.</p>
+									<p>It may be more difficult to find someone who is willing to enter into a conventional relationship with the knowledge that sex will not be involved, but remember, there are other people with low or no sex drive out there and many people who care more about love and companionship than they do about sex.</p>
+									<p>Don't give up hope!</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">What if it's a phase?</a>
+								<div class="cd-faq-content">
+									<p>What if it is? That doesn't stop you being asexual right now.</p>
+									<p>It may be tempting to hold back on accepting your asexuality in the hope that eventually you'll 'bloom' into a sexual person. I'm not saying that might not eventually happen, but consider this: do you want to spend your life thinking of yourself as an undeveloped person, living for the dreamed of day when you'll become whole? Might you feel more comfortable accepting who you are now as a whole complete valid person? Maybe one day you will “bloom”, and if and when you do, you won't have lost anything by being comfortable in the mean time.</p>
+									<p>There's no shame in identifying as one thing and then later identifying as another. Your identity isn't meant to limit you. If you've moved on or changed, then by all means describe yourself differently. If you fear you might be different in the future, that doesn't change which label is most useful to you in the present. There's nothing wrong with change.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">I'm worried that I'm sexually repressed or just using this to distance myself from or hide from the real world. How can I be sure I'm really asexual?</a>
+								<div class="cd-faq-content">
+									<p>Only you can know if you're asexual or not. Do you experience sexual attraction toward other people? Are you making choices to not act upon urges or do you lack them entirely? If you are genuinely unsure of the answers, then the asexual community may be a good place to explore how you feel.</p>
+									<p>There are people who, consciously or otherwise, avoid sexuality because they wish to avoid things like intimacy. These people are, of course, welcome in the asexual community, though they generally find that whatever emotional issue they were trying to avoid is present here as well. Many issues cannot be effectively avoided by avoiding sexuality. Asexual people deal with all of the same complex challenges in relationships as everyone else.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							<li>
+								<a class="cd-faq-trigger" href="#0">I am afraid people will laugh at me if I tell them I am asexual. What to do?</a>
+								<div class="cd-faq-content">
+									<p>It is common for others to not understand a particular thing that is new to them. Many asexuals don't understand what's wrong with them and think they are broken. Hence it is only natural to think that others might laugh at you. Accepting the fact that you are asexual would have taken some time, so be patient with others. After all it might not be a big deal.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							
 						</ul> <!-- cd-faq-group -->
 
 						<ul id="mobile" class="cd-faq-group">
-							<li class="cd-faq-title"><h2>Mobile</h2></li>
+							<li class="cd-faq-title"><h2>Family & Friends</h2></li>
 							<li>
-								<a class="cd-faq-trigger" href="#0">How does syncing work?</a>
+								<a class="cd-faq-trigger" href="#0">What exactly is Asexuality?</a>
 								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+									<p>It's a lack of sexual attraction. Asexuals are generally very different from one another: some experience romantic attraction, some don't. Some experience arousal, some don't. Asexuality is not celibacy - celibacy is a choice to abstain from sexual intimacy while asexuality is an orientation which results in lack of sexual attraction.</p>
 								</div> <!-- cd-faq-content -->
 							</li>
 
 							<li>
-								<a class="cd-faq-trigger" href="#0">How do I upload files from my phone or tablet?</a>
+								<a class="cd-faq-trigger" href="#0">Was it necessary for him/her to tell me about this? I would have preferred not to know.</a>
 								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, placeat quisquam rerum! Eligendi fugit dolorum tenetur modi fuga nisi rerum, autem officiis quaerat quos. Magni quia, quo quibusdam odio. Error magni aperiam amet architecto adipisci aspernatur! Officia, quaerat magni architecto nostrum magnam fuga nihil, ipsum laboriosam similique voluptatibus facilis nobis? Eius non asperiores, nesciunt suscipit veniam blanditiis veritatis provident possimus iusto voluptas, eveniet architecto quidem quos molestias, aperiam eum reprehenderit dolores ad deserunt eos amet. Vero molestiae commodi unde dolor dicta maxime alias, velit, nesciunt cum dolorem, ipsam soluta sint suscipit maiores mollitia assumenda ducimus aperiam neque enim! Quas culpa dolorum ipsam? Ipsum voluptatibus numquam natus? Eligendi explicabo eos, perferendis voluptatibus hic sed ipsam rerum maiores officia! Beatae, molestias!</p>
+									<p>By telling you, your child is only reaching out for your support.  The very fact that they chose to tell you means they believe that you will understand and support them. Asexuals often contend with deep levels of soul-searching and confusion due to the public's lack of information about the orientation. At such times they may need the support of you, their parent, more than ever.</p>
+									<p>You may not understand the orientation immediately, but take time to hear your child out. Give them a chance to explain things and most of all, don't deny them your support.</p>
 								</div> <!-- cd-faq-content -->
 							</li>
 
 							<li>
-								<a class="cd-faq-trigger" href="#0">How do I link to a file or folder?</a>
+								<a class="cd-faq-trigger" href="#0">Asexuality seems to be unusual. Could it be because of sexual abuse, repressed homosexuality or any other psychological issue?</a>
 								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+									<p>Try not to assume one of these had to happen. If your child hasn't shown mental instability in the past, don't convince yourself that they are hiding a trauma from you. If your child's asexuality is in fact caused by an outside force then they will become aware of it at a later date. If an unfortunate occurrence like sexual abuse has happened in your child's past, it doesn't mean it "made" them asexual.</p>
+									<p>If your child requires a therapist to help them come to terms with their asexuality, that's fine. Don't seek out a psychiatrist to "cure" your child's asexuality against their will--this will be damaging to the relationship you and your child share and potentially harmful to their self-esteem.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							
+							<li>
+								<a class="cd-faq-trigger" href="#0">Did I do something wrong as a parent to cause this?</a>
+								<div class="cd-faq-content">
+									<p>Absolutely not. As said before, an individual's sexuality is a very complex issue. It's highly unlikely how you raised them or a single incident in their lives single-handedly caused them to become asexual.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							
+							<li>
+								<a class="cd-faq-trigger" href="#0">Does that mean they are incapable of love?</a>
+								<div class="cd-faq-content">
+									<p>Hardly. Many asexuals experience romantic and affectionate feelings towards others. Just because your child may be uninterested in seeking out a partner the traditional way of blind dating and the like, doesn't mean they are misanthropic. They are capable of forming very close bonds with friends, and may even enter into a non-sexual relationship one day.</p>
+									<p>On the other hand, they could be completely uninterested in a romantic relationship and focus on platonic bonds. Do not pressure your child into "finding the right person." Although they might go about looking for love a completely different way, they are capable of the same feelings of compassion and devotion as anyone else - just expressed in a different way.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							
+							<li>
+								<a class="cd-faq-trigger" href="#0">I just want what's best for my child. What if they turn out unhappy? I don't want them to die alone.</a>
+								<div class="cd-faq-content">
+									<p>Remember the old saying you may have told your children before: "If everyone jumped off a bridge, would you do it too?" Just because your child is not living life the way others perceive is the way to achieve happiness, doesn't mean they are unhappy. Your child likely did a lot of soul-searching before coming to the conclusion that they are asexual. This might even be the first time they've felt secure in a while. If they seem happy, be thankful, and don't worry about what societal norms they fit. A person with a good personality and strong friendships should never have to worry about dying alone.</p>
+								</div> <!-- cd-faq-content -->
+							</li>
+							
+							<li>
+								<a class="cd-faq-trigger" href="#0">Should we tell the family/neighbours/teachers/etc.? What will other people think?</a>
+								<div class="cd-faq-content">
+									<p>It is advisable not to tell anyone without your child's permission. It is fairly unnecessary to tell non-family members and acquaintances. Your child will choose which family members and friends they are comfortable with telling. What these people think is irrelevant to how your child will live his/her life.</p>
 								</div> <!-- cd-faq-content -->
 							</li>
 						</ul> <!-- cd-faq-group -->
 
 						<ul id="account" class="cd-faq-group">
-							<li class="cd-faq-title"><h2>Account</h2></li>
+							<li class="cd-faq-title"><h2>Relationship</h2></li>
 							<li>
-								<a class="cd-faq-trigger" href="#0">How do I change my password?</a>
+								<a class="cd-faq-trigger" href="#0">Can Asexuals have successful romantic relationships?</a>
 								<div class="cd-faq-content">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum autem consectetur labore eius tenetur esse, in temporibus sequi cum voluptatem vitae repellat nostrum odio perspiciatis dolores recusandae necessitatibus, unde, deserunt voluptas possimus veniam magni soluta deleniti! Architecto, quidem, totam. Fugit minus odit unde ea cupiditate ab aperiam sed dolore facere nihil laboriosam dolorum repellat deleniti aliquam fugiat laudantium delectus sint iure odio, necessitatibus rem quisquam! Ipsum praesentium quam nisi sint, impedit sapiente facilis laudantium mollitia quae fugiat similique. Dolor maiores aliquid incidunt commodi doloremque rem! Quaerat, debitis voluptatem vero qui enim, sunt reiciendis tempore inventore maxime quasi fugiat accusamus beatae modi voluptates iste officia esse soluta tempora labore quisquam fuga, cum. Sint nemo iste nulla accusamus quam qui quos, vero, minus id. Eius mollitia consequatur fugit nam consequuntur nesciunt illo id quis reprehenderit obcaecati voluptates corrupti, minus! Possimus, perspiciatis!</p>
 								</div> <!-- cd-faq-content -->
@@ -137,134 +310,29 @@
 							</li>
 						</ul> <!-- cd-faq-group -->
 
-						<ul id="payments" class="cd-faq-group">
-							<li class="cd-faq-title"><h2>Payments</h2></li>
-							<li>
-								<a class="cd-faq-trigger" href="#0">Can I have an invoice for my subscription?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">Why did my credit card or PayPal payment fail?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusantium dolorem vel, ad, nostrum natus eos, nemo placeat quos nisi architecto rem dolorum amet consectetur molestiae reprehenderit cum harum commodi beatae necessitatibus. Mollitia a nostrum enim earum minima doloribus illum autem, provident vero et, aspernatur quae sunt illo dolorem. Corporis blanditiis, unde, neque, adipisci debitis quas ullam accusantium repudiandae eum nostrum quis! Velit esse harum qui, modi ratione debitis alias laboriosam minus eaque, quod, itaque labore illo totam aut quia fuga nemo. Perferendis ipsa laborum atque assumenda tempore aspernatur a eos harum non id commodi excepturi quaerat ullam, explicabo, incidunt ipsam, accusantium quo magni ut! Ratione, magnam. Delectus nesciunt impedit praesentium sed, aliquam architecto dolores quae, distinctio consectetur obcaecati esse, consequuntur vel sit quis blanditiis possimus dolorum. Eaque architecto doloremque aliquid quae cumque, vitae perferendis enim, iure fugiat, soluta aut!</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">Why does my bank statement show multiple charges for one upgrade?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-						</ul> <!-- cd-faq-group -->
-
-						<ul id="privacy" class="cd-faq-group">
-							<li class="cd-faq-title"><h2>Privacy</h2></li>
-							<li>
-								<a class="cd-faq-trigger" href="#0">Can I specify my own private key?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">My files are missing! How do I get them back?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">How can I access my account data?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus magni vero deserunt enim et quia in aliquam, rem tempore voluptas illo nisi veritatis quas quod placeat ipsa! Error qui harum accusamus incidunt at libero ipsum, suscipit dolorum esse explicabo in eius voluptates quidem voluptatem inventore amet eaque deserunt veniam dignissimos excepturi? Dolore, quo amet nostrum autem nemo. Sit nam assumenda, corporis ea sunt distinctio nostrum doloribus alias, beatae nesciunt dolore saepe consequuntur minima eveniet porro dolor officiis maiores ab obcaecati officia enim aliquam. Itaque fuga molestiae hic accusantium atque corporis quia id sequi enim vero? Hic aperiam sint facilis aliquam quia, accusamus tenetur earum totam enim est, error. Iusto, reiciendis necessitatibus molestias. Voluptatibus eos explicabo repellat nesciunt nam vero minima.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">How can I control if other search engines can link to my profile?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-						</ul> <!-- cd-faq-group -->
-
-						<ul id="delivery" class="cd-faq-group">
-							<li class="cd-faq-title"><h2>Delivery</h2></li>
-							<li>
-								<a class="cd-faq-trigger" href="#0">What should I do if my order hasn't been delivered yet?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-
-							<li>
-								<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-								<div class="cd-faq-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-								</div> <!-- cd-faq-content -->
-							</li>
-						</ul> <!-- cd-faq-group -->
+						
+						
 					</div> <!-- cd-faq-items -->
 					<a href="#0" class="cd-close-panel">Close</a>
-				</section> <!-- cd-faq -->
+				</div> <!-- cd-faq -->
 
-			</div>
+		
+		<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/asexualityindia" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/aceindia2016/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="mailto:asexualityindia@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Copyright © 2019 ASEXUAL INDIA</li>
+					</ul>
+				</footer>
+
 		</div>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/jquery.mobile.custom.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="assets/js/jquery-2.1.1.js"></script>
+<script src="assets/js/jquery.mobile.custom.min.js"></script>
+<script src="assets/css/faq.js"></script> <!-- Resource jQuery -->
+<script src="assets/css/util.js"></script>
 </body>
 </html>
