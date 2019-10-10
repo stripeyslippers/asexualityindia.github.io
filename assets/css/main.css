@@ -137,7 +137,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #222;
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -4980,6 +4980,7 @@ body.cd-overlay::after {
     -moz-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
 	border: 1px solid black;
+	padding:0;
   }
   .no-touch .cd-faq-group > li:hover {
     box-shadow: 0 1px 10px rgba(108, 125, 142, 0.3);
@@ -4998,7 +4999,7 @@ body.cd-overlay::after {
 .cd-faq-trigger {
   position: relative;
   display: block;
-  margin: 1.6em 0 .4em;
+  margin: 0;
   line-height: 1.2;
   color:#000;
 }
@@ -5006,8 +5007,6 @@ body.cd-overlay::after {
   .cd-faq-trigger {
     font-size: 24px;
     font-size: 1.1rem;
-    
-    margin: 0;
     padding: 24px 72px 24px 24px;
   }
   .cd-faq-trigger::before, .cd-faq-trigger::after {
@@ -5067,7 +5066,7 @@ body.cd-overlay::after {
 @media only screen and (min-width: 768px) {
   .cd-faq-content {
     display: none;
-    padding: 0 24px 30px;
+    padding: 10px 24px 30px;
   }
   .cd-faq-content p {
     line-height: 1.6;
@@ -5221,6 +5220,7 @@ form {
 	margin-top: 70px;
     display: flex;
     justify-content: center;
+	background: white;
 }
 
 .easyPaginateNav a {
@@ -5365,13 +5365,13 @@ form {
 /* ================================================================== */
 
 #journal {
-   background-color: #0f9095;
-   padding-top: 156px;
-   padding-bottom: 120px;
-   color: #7fe6ed;
+   background-color: #f2ebdd;
+   padding-top: 40px;
+   padding-bottom: 0px;
+   color: #000;
 }
 
-#journal a, #journal a:visited  { color: #fff; }
+#journal a, #journal a:visited  { color: #151515; }
 #journal a:hover, #journal a:focus { color: #005757; }
 
 #journal .section-head h2 { color: #fff; }
@@ -5379,7 +5379,7 @@ form {
 #journal .section-head .intro { color: #C2F1F5; }
 
 #journal .blog-entries { margin-top: 54px; }
-#journal .entry { margin-bottom: 12px; }
+#journal .entry { margin-bottom: 12px; padding-bottom: 20px; }
 
 /* post header */
 #journal .blog-entries .entry-header {
@@ -5406,7 +5406,7 @@ form {
 /* post meta */
 #journal .entry .post-meta   {
    font: 14px/24px opensans-regular, sans-serif;
-   color: #fff;
+   color: #000;
    margin-top: 12px;
    margin-bottom: 0;
 }

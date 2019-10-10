@@ -38,6 +38,9 @@ jQuery(document).ready(function($){
 	faqTrigger.on('click', function(event){
 		event.preventDefault();
 		$(this).next('.cd-faq-content').slideToggle(200).end().parent('li').toggleClass('content-visible');
+		$(this).css("background-color", "#ebebeb");
+		$(this).css("font-weight", "700");
+		
 	});
 
 	//update category sidebar while scrolling
