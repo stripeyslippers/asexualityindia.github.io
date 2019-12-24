@@ -5738,6 +5738,8 @@ body.narratives > #page-wrapper > #main > .container > header.major p{
 
 .captcha{
 	margin: 0 auto;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 
