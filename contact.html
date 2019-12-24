@@ -19,7 +19,7 @@
 	<script src="assets/js/jquery.min.js"></script> 
    
   </head>
-  <body class="is-preload landing">
+  <body class="is-preload">
   <div id="page-wrapper">
     <!-- Header -->
     <header id="header">
@@ -60,19 +60,6 @@
         </ul>
       </nav>
     </header>
-    <!-- Banner -->
-    <section id="banner">
-      <div class="content">
-        <header>
-          <h1>Welcome to Asexuality India</h1>
-          <p>Asexuality is little or no sexual attraction to anyone, or low or absent interest in sexual activity. It is a wide
-          spectrum and every Ace is unique and different. So if you identify as one or are still figuring things out, welcome home!
-          We hope to bring to you as much information and support as we can. Keep yourself updated with the Asexual scenes in
-          India! For further queries, Contact Us.</p>
-        </header>
-      </div>
-      <!--<a href="#five" class="goto-next scrolly">Next</a>-->
-    </section>
     <!-- Five -->
     <section id="five" class="wrapper style2 special fade">
       <div class="container inner">
@@ -82,10 +69,7 @@
           use the contact form or email us at 
           <span style="color:black">asexualityindia@gmail.com</span></p>
         </header>
-        <form id="gform" method="post" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
-		<fieldset class="hidden">
-            <input type="text" name="bot-field" placeholder="Your Password" autocomplete="off" />
-        </fieldset>
+        <form id="gform" method="post" data-netlify="true">
           <!-- change the form action to your script url -->
           <div class="row gtr-uniform gtr-50 form-elements">
             <fieldset class="col-4 col-12-xsmall">
@@ -97,10 +81,11 @@
             <fieldset class="col-12 col-12-xsmall">
               <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
             </fieldset>
+            
           </div>
           <footer class="major">
+			
             <div class="actions fit">
-			  <div data-netlify-recaptcha="true"></div>
               <input type="submit" value="Send Message" class="col-4 col-12-xsmall" />
             </div>
           </footer>
